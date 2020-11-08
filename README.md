@@ -1,6 +1,16 @@
 # QUOTE
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+## Description
+
+An angular application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational.
+
+## Features
+
+1. Create a new quote.
+2. Upvote or downvote a quote.
+3. Delete a quote
+4. See the number of upvotes and number of downvotes for each quote.
 
 ## Development server
 
