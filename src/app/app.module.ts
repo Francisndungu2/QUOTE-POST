@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CreateQuoteComponent } from './create-quote/create-quote.component';
 import { QuoteComponent } from './quote/quote.component';
+import { DateCountPipe } from './date-count.pipe';
+import { HighlightBestQuoteDirective } from './highlight-best-quote.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     CreateQuoteComponent,
-    QuoteComponent
+    QuoteComponent,
+    DateCountPipe,
+    HighlightBestQuoteDirective
   ],
   imports: [
     BrowserModule,
